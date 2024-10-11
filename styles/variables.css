@@ -1,9 +1,14 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
   --background-image: repeating-linear-gradient(to left, #000000 0 2px, #00000000 2px 4px),
-  repeating-linear-gradient(to bottom, #000000 0 2px, #00000000 2px 4px),
-  linear-gradient(to bottom, #007f0c, #004306);
+    repeating-linear-gradient(to bottom, #000000 0 2px, #00000000 2px 4px),
+    linear-gradient(to bottom, #007f0c, #004306);
   --main-color: #00CC14;
   --background-color: #000000;
-
+  --text-main: "Inter-Variable", Arial, sans-serif;
+  --text-accent: 'PressStart2P', Arial, sans-serif;
+  --regular-font-weight: 465;
+  --bold-font-weight: 785;
+  --button-hover-color: #00CC14;
+  --like-color: #ff0000;
 }
